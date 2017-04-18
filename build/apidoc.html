@@ -51,7 +51,7 @@
 
         href="http://github.com/rse/grunt-bower-install-simple"
 
-    >grunt-bower-install-simple (v1.2.3)</a>
+    >grunt-bower-install-simple (v1.2.4)</a>
 </h1>
 <h4>Grunt Task for Installing Bower Dependencies</h4>
 <div class="apidocSectionDiv"><a
@@ -61,12 +61,61 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.grunt-bower-install-simple">module grunt-bower-install-simple</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.grunt-bower-install-simple.grunt-bower-install-simple">
+            function <span class="apidocSignatureSpan"></span>grunt-bower-install-simple
+            <span class="apidocSignatureSpan">(grunt)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.grunt-bower-install-simple" id="apidoc.module.grunt-bower-install-simple">module grunt-bower-install-simple</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.grunt-bower-install-simple.grunt-bower-install-simple" id="apidoc.element.grunt-bower-install-simple.grunt-bower-install-simple">
+        function <span class="apidocSignatureSpan"></span>grunt-bower-install-simple
+        <span class="apidocSignatureSpan">(grunt)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">grunt-bower-install-simple = function (grunt) {
+    grunt.initConfig({
+        pkg: grunt.file.readJSON(&#x22;package.json&#x22;),
+        jshint: {
+            options: {
+                jshintrc: &#x22;jshint.json&#x22;
+            },
+            gruntfile:   [ &#x22;Gruntfile.js&#x22; ],
+            sourcefiles: [ &#x22;tasks/grunt-bower-install-simple.js&#x22; ]
+        },
+        eslint: {
+            options: {
+                configFile: &#x22;eslint.json&#x22;
+            },
+            target: [ &#x22;tasks/grunt-bower-install-simple.js&#x22; ]
+        },
+        clean: {
+            clean:     [ ],
+            distclean: [ &#x22;node_modules&#x22; ]
+        }
+    });
+
+    grunt.loadNpmTasks(&#x22;grunt-contrib-jshint&#x22;);
+    grunt.loadNpmTasks(&#x22;grunt-contrib-clean&#x22;);
+    grunt.loadNpmTasks(&#x22;grunt-eslint&#x22;);
+
+    grunt.registerTask(&#x22;default&#x22;, [ &#x22;jshint&#x22;, &#x22;eslint&#x22; ]);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 

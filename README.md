@@ -1,9 +1,14 @@
-# api documentation for  [grunt-bower-install-simple (v1.2.3)](http://github.com/rse/grunt-bower-install-simple)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-bower-install-simple.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-bower-install-simple) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-bower-install-simple.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-bower-install-simple)
+# npmdoc-grunt-bower-install-simple
+
+#### api documentation for  [grunt-bower-install-simple (v1.2.4)](http://github.com/rse/grunt-bower-install-simple)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-bower-install-simple.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-bower-install-simple) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-bower-install-simple.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-bower-install-simple)
+
 #### Grunt Task for Installing Bower Dependencies
 
-[![NPM](https://nodei.co/npm/grunt-bower-install-simple.png?downloads=true)](https://www.npmjs.com/package/grunt-bower-install-simple)
+[![NPM](https://nodei.co/npm/grunt-bower-install-simple.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-bower-install-simple)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-bower-install-simple/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-grunt-bower-install-simple_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-bower-install-simple/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-grunt-bower-install-simple/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-grunt-bower-install-simple/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-bower-install-simple/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-bower-install-simple/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-grunt-bower-install-simple/build/screenCapture.npmPackageListing.svg)
 
@@ -18,14 +23,13 @@
 {
     "author": {
         "name": "Ralf S. Engelschall",
-        "email": "rse@engelschall.com",
         "url": "http://engelschall.com"
     },
     "bugs": {
         "url": "http://github.com/rse/grunt-bower-install-simple/issues"
     },
     "dependencies": {
-        "bower": "~1.7.9",
+        "bower": "~1.8.0",
         "chalk": "~1.1.3"
     },
     "description": "Grunt Task for Installing Bower Dependencies",
@@ -33,18 +37,18 @@
         "grunt": "~1.0.1",
         "grunt-cli": "~1.2.0",
         "grunt-contrib-clean": "~1.0.0",
-        "grunt-contrib-jshint": "~1.0.0",
-        "grunt-eslint": "~18.1.0"
+        "grunt-contrib-jshint": "~1.1.0",
+        "grunt-eslint": "~19.0.0"
     },
     "directories": {},
     "dist": {
-        "shasum": "d84bdeed83f2a023c7dd78ac5843e517eab3fd57",
-        "tarball": "https://registry.npmjs.org/grunt-bower-install-simple/-/grunt-bower-install-simple-1.2.3.tgz"
+        "shasum": "eea89be80421eef4d926280b0573b332f00f3f85",
+        "tarball": "https://registry.npmjs.org/grunt-bower-install-simple/-/grunt-bower-install-simple-1.2.4.tgz"
     },
     "engines": {
         "node": ">=0.10.0"
     },
-    "gitHead": "493eee22661d74d3e2fb6ccd44164b16f4a48837",
+    "gitHead": "fa19d8b5a60f8ddb20760d9060240f5599c1920f",
     "homepage": "http://github.com/rse/grunt-bower-install-simple",
     "keywords": [
         "gruntplugin",
@@ -56,8 +60,7 @@
     "main": "Gruntfile.js",
     "maintainers": [
         {
-            "name": "rse",
-            "email": "rse@engelschall.com"
+            "name": "rse"
         }
     ],
     "name": "grunt-bower-install-simple",
@@ -65,25 +68,14 @@
     "peerDependencies": {
         "grunt": ">=0.4.0"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/rse/grunt-bower-install-simple.git"
     },
     "scripts": {},
-    "version": "1.2.3"
+    "version": "1.2.4"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module grunt-bower-install-simple](#apidoc.module.grunt-bower-install-simple)
-
-
-
-# <a name="apidoc.module.grunt-bower-install-simple"></a>[module grunt-bower-install-simple](#apidoc.module.grunt-bower-install-simple)
 
 
 
